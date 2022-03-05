@@ -19,10 +19,10 @@ body {
 	text-transform: none;
 }
 
-#question-container {
+.question-container {
 	padding: 0;
 	margin: 0;
-	display: flex;
+	display: none;
 	width: 50vw;
 	height: 50vh;
 	justify-content: center;
@@ -30,13 +30,13 @@ body {
 	flex-direction: column;
 	border: 5px solid #585b86;
 }
-#question {
+.question {
 	margin-top: -5rem;
 	width: auto;
 	height: auto;
 	padding: 3rem;
 }
-#answer-buttons {
+.answer-buttons {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
